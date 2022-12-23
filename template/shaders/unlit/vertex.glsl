@@ -22,6 +22,7 @@ out vec3 t_coord;
 
 void main() {
 
+  
   // o_positionWorld = vec3(model * vec4(position, 1.0));
   // mat3 normalMatrix = mat3(transpose(inverse(model)));
   // o_uv0 = uv0;

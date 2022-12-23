@@ -5,7 +5,7 @@
 #include "Mesh.h"
 #include "Material.h"
 // #include "Texture.h"
-
+#include "MaterialPBR.h"
 #include <glm/glm.hpp>
 
 #include <vector>
@@ -13,26 +13,30 @@
 static unsigned int SCREENWIDTH = 1600;
 static unsigned int SCREENHEIGHT = 900;
 
-struct Instance {
+struct Instance
+{
   glm::mat4 matrix;
-  Mesh* mesh;
-  Material* material;
+  Mesh *mesh;
+  Material *material;
+  MaterialPBR *matPBR;
 };
 
-struct Context {
+struct Context
+{
   static Camera camera;
   static bool fullScreen;
   static bool refreshMatrices;
 
   static std::vector<Instance> instances;
-  static std::vector<Mesh*> meshes;
-  static std::vector<Material*> materials;
+  static std::vector<Mesh *> meshes;
+  static std::vector<Material *> materials;
+  static std::vector<MaterialPBR *> matPBR;
+
   // std::vector<Texture*> textures;
 };
 
 void idle();
 void reshape(int w, int h);
 void clearContext();
-
 
 #endif

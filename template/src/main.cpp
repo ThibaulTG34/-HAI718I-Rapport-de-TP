@@ -25,6 +25,7 @@
 #include "Mouse.h"
 #include "Keyboard.h"
 #include "SceneLoader.h"
+#include "MaterialPBR.h"
 
 
 
@@ -85,9 +86,21 @@ void draw() {
 		Instance& inst = Context::instances[i];
 		Material* material = inst.material;
 		Mesh* mesh = inst.mesh;
-		material->bind();
+		material->bind('c');
 		material->setMatrices(Context::camera.projection, Context::camera.view, inst.matrix);
 		mesh->draw();
+
+		material->bind('s');
+		material->setMatrices(Context::camera.projection, Context::camera.view, inst.matrix);
+
+
+		// ----- Material PBR --------
+		// Instance& inst = Context::instances[i];
+		// MaterialPBR* material = inst.matPBR;
+		// Mesh* mesh = inst.mesh;
+		// material->init(Context::camera.projection, Context::camera.view, inst.matrix);
+		// mesh->draw();
+		// ----------------------------
 	}
 }
 

@@ -16,7 +16,7 @@ out vec4 FragColor;
 
 
 // Pour la skybox
-uniform vec3 camPos;
+// uniform vec3 camPos;
 uniform samplerCube cube;
 // uniform sampler2D _text;
 

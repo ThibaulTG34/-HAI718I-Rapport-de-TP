@@ -16,6 +16,8 @@ void reshape(int w, int h) {
 Camera Context::camera;
 std::vector<Instance> Context::instances;
 std::vector<Material*> Context::materials;
+std::vector<MaterialPBR*> Context::matPBR;
+
 std::vector<Mesh*> Context::meshes;
 bool Context::refreshMatrices = true;
 bool Context::fullScreen = false;
@@ -27,6 +29,10 @@ void clearContext() {
   for (Material* mat: Context::materials) {
     delete mat;
   }
+  for (MaterialPBR* mat: Context::matPBR) {
+    delete mat;
+  }
   Context::meshes.clear();
   Context::materials.clear();
+  Context::matPBR.clear();
 }

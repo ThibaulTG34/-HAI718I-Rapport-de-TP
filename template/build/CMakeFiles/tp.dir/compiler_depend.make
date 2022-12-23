@@ -796,6 +796,7 @@ CMakeFiles/tp.dir/src/Context.cpp.o: ../src/Context.cpp \
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/nested_exception.h \
+  ../include/MaterialPBR.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
@@ -1198,6 +1199,7 @@ CMakeFiles/tp.dir/src/Keyboard.cpp.o: ../src/Keyboard.cpp \
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/nested_exception.h \
+  ../include/MaterialPBR.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
@@ -1607,7 +1609,8 @@ CMakeFiles/tp.dir/src/Material.cpp.o: ../src/Material.cpp \
   ../include/Context.h \
   ../include/Camera.h \
   ../include/Mesh.h \
-  ../include/Material.h
+  ../include/Material.h \
+  ../include/MaterialPBR.h
 
 CMakeFiles/tp.dir/src/Mesh.cpp.o: ../src/Mesh.cpp \
   /usr/include/stdc-predef.h \
@@ -2264,6 +2267,7 @@ CMakeFiles/tp.dir/src/Mouse.cpp.o: ../src/Mouse.cpp \
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/nested_exception.h \
+  ../include/MaterialPBR.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
@@ -2666,6 +2670,7 @@ CMakeFiles/tp.dir/src/SceneLoader.cpp.o: ../src/SceneLoader.cpp \
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/nested_exception.h \
+  ../include/MaterialPBR.h \
   /usr/include/c++/11/vector \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
@@ -3923,9 +3928,11 @@ CMakeFiles/tp.dir/src/main.cpp.o: ../src/main.cpp \
   ../include/Camera.h \
   ../include/Mesh.h \
   ../include/Material.h \
+  ../include/MaterialPBR.h \
   ../include/Mouse.h \
   ../include/Keyboard.h \
-  ../include/SceneLoader.h
+  ../include/SceneLoader.h \
+  ../include/MaterialPBR.h
 
 CMakeFiles/tp.dir/src/stb_image.cpp.o: ../src/stb_image.cpp \
   /usr/include/stdc-predef.h \
@@ -4139,6 +4146,8 @@ CMakeFiles/tp.dir/src/stb_image.cpp.o: ../src/stb_image.cpp \
 ../include/Vec3.h:
 
 /usr/include/c++/11/math.h:
+
+../include/stb_image.h:
 
 /usr/include/c++/11/stdlib.h:
 
@@ -4940,6 +4949,8 @@ CMakeFiles/tp.dir/src/stb_image.cpp.o: ../src/stb_image.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
+../include/MaterialPBR.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/c++/11/cerrno:
@@ -5055,8 +5066,6 @@ CMakeFiles/tp.dir/src/stb_image.cpp.o: ../src/stb_image.cpp \
 /usr/include/glm/ext/matrix_projection.inl:
 
 /usr/include/glm/ext/matrix_transform.hpp:
-
-../include/stb_image.h:
 
 /usr/include/glm/ext/vector_relational.inl:
 

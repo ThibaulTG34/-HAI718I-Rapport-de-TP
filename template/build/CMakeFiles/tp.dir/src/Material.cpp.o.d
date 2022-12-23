@@ -338,4 +338,5 @@ CMakeFiles/tp.dir/src/Material.cpp.o: \
  /home/thibault/Documents/Programmation3D/TP_Texture_V2/prog-3D-2022/template/include/Context.h \
  /home/thibault/Documents/Programmation3D/TP_Texture_V2/prog-3D-2022/template/include/Camera.h \
  /home/thibault/Documents/Programmation3D/TP_Texture_V2/prog-3D-2022/template/include/Mesh.h \
- /home/thibault/Documents/Programmation3D/TP_Texture_V2/prog-3D-2022/template/include/Material.h
+ /home/thibault/Documents/Programmation3D/TP_Texture_V2/prog-3D-2022/template/include/Material.h \
+ /home/thibault/Documents/Programmation3D/TP_Texture_V2/prog-3D-2022/template/include/MaterialPBR.h
